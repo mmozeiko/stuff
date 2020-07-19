@@ -1,5 +1,3 @@
-// clang -Os -fno-unwind-tables -nostdlib -fuse-ld=lld -Wl,-fixed,-merge:.rdata=.text,-subsystem:windows,user32.lib TurnOffMonitors.c -o TurnOffMonitors.exe
-
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 

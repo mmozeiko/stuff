@@ -1,0 +1,1 @@
+"%ProgramFiles%\LLVM\bin\clang.exe" -Os -fno-unwind-tables -nostdlib -fuse-ld=lld -Wl,-fixed,-merge:.rdata=.text,-subsystem:windows,kernel32.lib,user32.lib,shell32.lib PreventSleep.c -o PreventSleep.exe
